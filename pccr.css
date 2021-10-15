@@ -1,104 +1,43 @@
-/*Custom CSS*/
-
-
+/* Custom js */
+/* $(document).ready(function(){
+    $('.navbar-home').html('<img class="pccr-logo" src="https://lms.staging.pccr.edu.ph/pluginfile.php/1/theme_space/customlogosidebar/1627014959/new%20logo%20initial%202.png" />');
+    $('.navbar-brand').html('<img class="pccr-logo" src="https://lms.staging.pccr.edu.ph/pluginfile.php/1/theme_space/customlogosidebar/1627014959/new%20logo%20initial%202.png" />');
+    $("body").append("<script type='module' src='/assets/payment_integration/doctype/paymongo_billing_info/paymongo_billing_info.js'></script>");
+    $('.page-card-head').html('<img class="pccr-logo" src="https://lms.staging.pccr.edu.ph/pluginfile.php/1/theme_space/customlogosidebar/1627014959/new%20logo%20initial%202.png" />');
+}); */
 .navbar-brand img {
     display: inline-block;
     max-width: 150px;
     max-height: 50px !important;
 }
 
-
-/* // NavBar */
-.navbar{
-    background-color: #093d52;
-}
-
+/* // Home page */
 .navbar.navbar-light.navbar-expand-lg {
-    padding: 8px 10px !important;
+    padding: 0 10px !important;
 }
 
 /*LINK styled as button*/
 .navbar-light .navbar-nav a.btn-login-area{
-    background-color: #ee7421 !important;
+    background-color: #7A0200 !important;
     color: #ffffff !important;
-    padding: 8px 16px;
+    padding: .25rem .5rem;
     border-radius: 5px;
-    font-size: 14px !important;
+    font-size: .875rem !important;
 }
 
 .navbar-light .navbar-nav a.btn-login-area:hover{
-    background-color: rgb(197, 100, 9) !important;
+    background-color: #FDB415 !important;
 }
 
-.navbar a.nav-link{
-    color: #ffffff !important;
-}
-
-.navbar svg.icon{
-    filter: brightness(0) invert(1) !important;
-} 
-
-.navbar form .awesomplete #navbar-search:focus{
-    border: 1px solid #00a88e !important; 
-    box-shadow: 2px 0px 1px 1px rgba(0,168,142,0.75) !important;
-    -webkit-box-shadow: 2px 0px 1px 1px rgba(0,168,142,0.75) !important;
-    -moz-box-shadow: 2px 0px 1px 1px rgba(0,168,142,0.75) !important;
-}
-
-.navbar form .awesomplete #navbar-search::placeholder{
-    color: #ffffff !important;
-}
-
-/*Sidebar*/
-.layout-side-section .list-sidebar .standard-sidebar-section a.selected{
-    background-color: #093d52 !important;
-    color: #ffffff;
-}
-
-.layout-side-section .list-sidebar .standard-sidebar-section a:hover{
-    background-color: #ee7421;
-    color: #ffffff;
-    transition: 0.3s;
-}
-
-.layout-side-section .list-sidebar .standard-sidebar-section a.selected svg.icon{
-    filter: brightness(0) invert(1) !important;
-}
-
-.layout-side-section .list-sidebar .standard-sidebar-section a:hover svg.icon{
-    filter: brightness(0) invert(1) !important;
-}
-/*Sidebar*/
-
-/*Sidebar Inside Pages*/
-.layout-side-section .list-sidebar .sidebar-section a.btn.btn-default{
-    background-color: transparent !important;
-    border: 1px solid #093d52 !important;
-    color: #093d52 !important;
-}
-
-.layout-side-section .list-sidebar .sidebar-section a.btn.btn-default:hover{
-    -webkit-box-sizing: border-box!important;
-    box-sizing: border-box!important;
-    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13)!important;
-    box-shadow: 0 1px 3px rgba(0,0,0,.13)!important;
-    transition: 0.3s !important;
-}
-/*Sidebar Inside Pages*/
 
 /*Buttons*/
-.btn.btn-sm, .btn.btn-primary{
-    padding: 8px 16px !important;
-}
-
 .btn.btn-primary{
-    background-color: #ee7421 !important;
+    background-color: #7A0200 !important;
     color: #ffffff !important;
 }
 
-
 .btn.btn-primary:hover{
-    background-color: rgb(197, 100, 9) !important;
+    background-color: #FDB415 !important;
 }
 
 .btn.btn-light, .btn.btn-default{
@@ -108,17 +47,24 @@
 }
 
 .btn.btn-light:hover, .btn.btn-default:hover{
-    background-color: #000000 !important;
-    color: #ffffff !important;
+    border: 1px solid #7A0200 !important;
+    color: #7A0200 !important;
 }
 /*Links*/
+a {
+    color: #000000 !important;
+}
 
+a:hover {
+    color: #7A0200 !important;
+    text-decoration-color: #FDB415 !important;
+}
 
 
 /*Input Field*/
 input{
     background-color: transparent !important;
-    border: 1px solid #b9b9b9!important;
+    border: 1px solid #e8e8e8!important;
     -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13)!important;
@@ -126,23 +72,14 @@ input{
     border-radius: 4px!important;
 }
 
-input:hover{
-    border: 1px solid #093d52 !important;
-    transition: 0.3s !important;
-}
-
 input:focus{
-    border: 1px solid #093d52 !important;
-    transition: 0.3s !important;
-    box-shadow: 1px 2px 22px -5px rgba(9,61,82,0.88) !important;
--webkit-box-shadow: 1px 2px 22px -5px rgba(9,61,82,0.88) !important;
--moz-box-shadow: 1px 2px 22px -5px rgba(9,61,82,0.88) !important;
+    border: 1px solid #000000 !important;
 }
 
 /*Dropdown Fields*/
 select{
     background-color: transparent !important;
-    border: 1px solid #b9b9b9!important;
+    border: 1px solid #e8e8e8!important;
     -webkit-box-sizing: border-box!important;
     box-sizing: border-box!important;
     -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13)!important;
@@ -151,9 +88,8 @@ select{
 }
 
 select:hover, select:focus{
-    border: 1px solid #093d52 !important;
+    border: 1px solid #000000 !important;
     cursor: pointer;
-    transition: 0.3s !important;
 }
 
 /*Date Field*/
@@ -221,21 +157,17 @@ select:hover, select:focus{
 .modal .modal-body{
     color: #000000 !important;
 }
+
+.grabpay-icon:hover, .debitcredit-icon:hover, .Gcash-icon:hover {
+    background-color: #FDB415 !important;
+    border: 0px !important;
+}
 /*****************************/
 
 /*Login Page*/
-.for-login .page-card-head .trn-logo{
+.for-login .page-card-head .pccr-logo{
     max-height: 150px !important;
     margin-bottom: 0px !important;
-}
-
-.for-login .form-signin .forgot-password-message a, .for-login .sign-up-message a{
-    text-decoration: underline !important;
-    color:#000000 !important; 
-}
-
-.for-login .form-signin .forgot-password-message a:hover, .for-login .sign-up-message a:hover{
-    color: #00a88e !important;
 }
 
 /*Login Page*/
@@ -247,116 +179,3 @@ select:hover, select:focus{
 }
 
 /*Sign Up Form*/
-
-
-
-
-/*Texts and Everything*/
-.page-title .title-area .title-text{
-    color:#042836;
-}
-/*Texts and Everything*/
-
-
-
-/*Inside Card Element*/
-.indicator-pill.yellow{
-    background-color: #ff9f5f !important;
-}
-
-.indicator-pill.yellow::before{
-    background-color: #ffffff !important;
-}
-
-.indicator-pill{
-    background-color: #185972 !important;
-}
-
-.indicator-pill::before{
-    background-color: #ffffff !important;
-}
-
-.widget.shortcut-widget-box .indicator-pill{
-    background-color: #00a88e !important;
-    color: #ffffff !important;
-}
-
-.title-area .indicator-pill{
-    background-color: #00a88e !important;
-    color: #ffffff !important;
-}
-
-.disabled-link .indicator-pill{
-    background-color: #8e8e8e !important;
-}
-
-.disabled-link .indicator-pill::before{
-    background-color: #555555 !important;
-}
-
-.widget.links-widget-box{
-    border:1px solid #093d52;
-}
-
-.widget.links-widget-box .widget-body a:hover{
-    background-color: #ee7421 !important;
-    color: #ffffff !important;
-    transition: 0.3s;
-}
-
-
-
-.widget-group .widget-group-body .widget-shadow.shortcut-widget-box{
-    border:1px solid #093d52;
-    transition: 0.3s;
-}
-
-.widget-group .widget-group-body .widget-shadow.shortcut-widget-box .widget-head .widget-title{
-    font-weight: 700;
-}
-
-.widget-group .widget-group-body .widget-shadow.shortcut-widget-box:hover{
-    background-color: #ee7421;
-    border-color: #ee7421;
-}
-
-.widget-group .widget-group-body .widget-shadow.shortcut-widget-box:hover .widget-head .widget-title{
-    color: #ffffff;
-}
-/*Inside Card Element*/
-
-
-
-/*Form Card Section*/
-.form-layout .form-page .row.form-section.card-section{
-    border-top: 8px solid #106b8f;
-} 
-/*Form Card Section*/
-
-
-
-/*Breadcrumbs*/
-#navbar-breadcrumbs li a{
-    color: #ffffff !important;
-}
-
-#navbar-breadcrumbs a:before{
-    color: #ffffff;
-}
-
-#navbar-breadcrumbs li.disabled a{
-    color: #00a88e !important;
-    font-weight: 700 !important;
-    text-decoration: underline;
-}
-/*Breadcrumbs*/
-
-
-
-/*Table Elements*/
-.level.list-row .indicator-pill.gray{
-    background-color: #77BD1E !important;
-    color: #ffffff !important;
-}
-
-/*Table Elements*/
